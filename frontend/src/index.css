@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+    --color-dark-bg: #0f0f0f;
+    --color-dark-surface: #171717;
+    --color-accent-amber: #f59e0b;
+
+    --color-neon: #14dd14;
+}
