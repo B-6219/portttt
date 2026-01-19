@@ -1,10 +1,16 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import { Github, Linkedin, Mail } from "lucide-react"
+//import { GitBranch, Link, Mail } from "lucide"
+//import { Github, Linkedin, Mail } from 'lucide'
+
+import Github from "lucide-react/dist/esm/icons/github"
+import Linkedin from "lucide-react/dist/esm/icons/linkedin"
+import Mail from "lucide-react/dist/esm/icons/mail"
+
 
 const Footer = () => {
     return (
-        <footer className="bg-dark-surface border-t border-white/10">
+        <section className="bg-dark-surface border-t border-white/10">
             <div className="max-w-7xl mx-auto px-6 py-10">
 
                 {/* Top section */}
@@ -36,6 +42,7 @@ const Footer = () => {
                         >
                             <Github size={18} />
                         </a>
+
                         <a
                             href="#"
                             className="p-2 rounded-full border border-white/10 text-text-muted hover:text-accent-amber hover:border-accent-amber transition"
@@ -58,7 +65,7 @@ const Footer = () => {
                 </div>
 
             </div>
-        </footer>
+        </section>
     )
 }
 
