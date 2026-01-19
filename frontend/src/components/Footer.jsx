@@ -10,7 +10,7 @@ import Mail from "lucide-react/dist/esm/icons/mail"
 
 const Footer = () => {
     return (
-        <section className="bg-dark-surface border-t border-white/10">
+        <section className="bg-dark-surface  border-white/10">
             <div className="max-w-7xl mx-auto px-6 py-10">
 
                 {/* Top section */}
@@ -18,40 +18,40 @@ const Footer = () => {
 
                     {/* Brand */}
                     <div className="text-center md:text-left">
-                        <h2 className="text-xl font-bold text-text-primary">
-                            Brian <span className="text-accent-amber">Kamau</span>
+                        <h2 className="text-2xl font-bold text-accent-amber">
+                            Brian <span className="text-neon">Kamau</span>
                         </h2>
-                        <p className="text-text-muted text-sm mt-1">
+                        <p className="text-purple-muted text-sm mt-1">
                             Full-Stack • Mobile • Cybersecurity
                         </p>
                     </div>
 
                     {/* Navigation */}
                     <ul className="flex gap-6 text-sm text-text-muted">
-                        <li><NavLink className="hover:text-accent-amber" to="/">Home</NavLink></li>
-                        <li><NavLink className="hover:text-accent-amber" to="/about">About</NavLink></li>
-                        <li><NavLink className="hover:text-accent-amber" to="/project">Projects</NavLink></li>
-                        <li><NavLink className="hover:text-accent-amber" to="/contact">Contact</NavLink></li>
+                        <li><NavLink className="text-neon text-medium font-serif hover:text-accent-amber" to="/">Home</NavLink></li>
+                        <li><NavLink className="text-neon text-medium font-serif hover:text-accent-amber" to="/about">About</NavLink></li>
+                        <li><NavLink className="text-neon text-medium font-serif hover:text-accent-amber" to="/project">Projects</NavLink></li>
+                        <li><NavLink className="text-neon text-medium font-serif hover:text-accent-amber" to="/contact">Contact</NavLink></li>
                     </ul>
 
                     {/* Socials */}
                     <div className="flex gap-4">
                         <a
                             href="#"
-                            className="p-2 rounded-full border border-white/10 text-text-muted hover:text-accent-amber hover:border-accent-amber transition"
+                            className="p-4 hover:bg-off-white  rounded-full border border-white/10 text-text-muted text-black hover:text-accent-amber transition"
                         >
-                            <Github size={18} />
+                            <Github size={20} />
                         </a>
 
                         <a
                             href="#"
-                            className="p-2 rounded-full border border-white/10 text-text-muted hover:text-accent-amber hover:border-accent-amber transition"
+                            className="p-4 font-semibold rounded-full border border-white/10 text-text-muted  hover:bg-dark-blue hover:text-off-white transition"
                         >
-                            <Linkedin size={18} />
+                            <Linkedin size={20} />
                         </a>
                         <a
                             href="#"
-                            className="p-2 rounded-full border border-white/10 text-text-muted hover:text-accent-amber hover:border-accent-amber transition"
+                            className="p-4 rounded-full border border-white/10 text-text-muted hover:text-accent-amber transition"
                         >
                             <Mail size={18} />
                         </a>

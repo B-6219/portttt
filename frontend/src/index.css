@@ -9,4 +9,17 @@
 
     --color-purple-muted: #a78bfa;
     --color-off-white: #e5e7eb;
+    --color-dark-blue: #010124;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
 }

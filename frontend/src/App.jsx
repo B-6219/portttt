@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='bg-dark-surface'>
+    <div className='bg-dark-surface min-h-screen'>
 
       <Header />
 
@@ -21,7 +21,7 @@ const App = () => {
         {/* <Route path='/' element={ } /> */}
       </Routes>
 
-      <Footer />
+      <Footer className='mt-auto bg-dark-surface border-t border-white/10' />
 
     </div>
   )
