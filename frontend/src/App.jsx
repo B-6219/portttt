@@ -2,8 +2,8 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>
-      <h1 className='text-green-400'>Ghthihb</h1>
+    <div className='mx-4 sm:mx-[10%]'>
+
     </div>
   )
 }
