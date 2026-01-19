@@ -1,25 +1,21 @@
 import React from 'react'
-import doc14 from 'doc14.png'
+import doc14 from '../assets/doc14.png'
 
 const About = () => {
     return (
         <div>
 
             <div className='text-center text-2xl pt-10 text-gray-600'>
-                <p>ABOUT <span className='text-gray-600 font-medium'>ME</span></p>
+                <p>ABOUT <span className='text-purple-muted font-medium'>ME</span></p>
             </div>
 
             <div className='my-10 flex flex-col md:flex-row gap-12'>
-                <img className='w-full md:max-w-90 rounded' src={assets.about_image} alt="" />
-                <div className='fflex flex-col justify-center gap-6 md;w-2/4 text-sm text-gray-600'>
+                <img className='w-full md:max-w-90 rounded' src={doc14} alt="" />
+                <div className='flex flex-col justify-center gap-6 md;w-2/4 text-sm text-gray-600'>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam amet suscipit animi error sunt, maiores minima dolorum veniam exercitationem quibusdam? Atque consequuntur a, dolor quis sapiente deserunt odit sunt nobis?
                     </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quae veritatis nihil labore cum molestias nisi blanditiis tenetur quos sit sint eius deserunt numquam sed est, asperiores minima ipsum earum.
-                    </p><br />
-                    <b className='text-gray-800'>Our Vison</b>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aspernatur ea reiciendis quo praesentium numquam vero a? Reprehenderit obcaecati totam illum quos</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quae veritatis nihil labore cum molestias nisi blanditiis tenetur quos sit sint eius deserunt numquam sed est, asperiores minima ipsum earum.</p>
                 </div>
             </div>
 

@@ -5,6 +5,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Project from './pages/Project'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
         <Route path='/project' element={<Project />} />
         {/* <Route path='/' element={ } /> */}
       </Routes>
+
+      <Footer />
 
     </div>
   )
