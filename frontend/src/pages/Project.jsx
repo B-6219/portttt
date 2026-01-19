@@ -16,19 +16,19 @@ const projects = [
         title: "Twitter (X) Clone",
         description:
             "A high-performance, responsive music streaming application inspired by Spotify's design and core user experience. This project replicates the hallmark 'dark theme' and fluid navigation of the original platform while integrating real-time audio playback using MERN Stack.",
-        tech: ["JavaScript", "React"],
+        tech: ["JavaScript", "React", 'TanStack'],
         image: spotify,
         github: "https://github.com/B-6219/twitter-clone",
         live: "https://twitter-clone-mfju-ec9v6u7vy-brians-projects-ae331f86.vercel.app/",
     },
     {
-        title: "Spotify Clone",
+        title: "Tech Quote Generator",
         description:
             "A high-performance, responsive music streaming application inspired by Spotify's design and core user experience. This project replicates the hallmark 'dark theme' and fluid navigation of the original platform while integrating real-time audio playback using MERN Stack.",
-        tech: ["JavaScript"],
+        tech: ["HTML", 'CSS', 'Javascript'],
         image: spotify,
-        github: "#",
-        live: "#",
+        github: "https://github.com/B-6219/Random_Qoute_Generator",
+        live: "https://random-qoute-generator-phi.vercel.app/",
     },
 ]
 
@@ -58,7 +58,7 @@ const Project = () => {
 
                         {/* Project Content */}
                         <div className="p-6 flex flex-col grow">
-                            <h3 className="text-xl font-bold text-accent-amber mb-2">
+                            <h3 className="text-xl font-bold text-neon mb-2">
                                 {project.title}
                             </h3>
                             <p className="text-text-muted text-sm mb-4 grow">
