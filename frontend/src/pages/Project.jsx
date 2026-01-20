@@ -30,6 +30,7 @@ const projects = [
         github: "https://github.com/B-6219/Random_Qoute_Generator",
         live: "https://random-qoute-generator-phi.vercel.app/",
     },
+
 ]
 
 const Project = () => {

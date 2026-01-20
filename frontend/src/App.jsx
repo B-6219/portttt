@@ -6,6 +6,7 @@ import Contact from './pages/Contact'
 import Project from './pages/Project'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Skills from './pages/Skills'
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/project' element={<Project />} />
-        {/* <Route path='/' element={ } /> */}
+        <Route path='/skills' element={<Skills />} />
       </Routes>
 
       <Footer className='bg-dark-surface border-t border-white/10' />
