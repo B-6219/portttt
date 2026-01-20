@@ -1,16 +1,18 @@
 import React from 'react'
-import doc14 from '../assets/doc14.png'
+import about from '../assets/about.jpeg'
 
 const About = () => {
     return (
         <div>
 
-            <div className='text-center text-2xl pt-10 text-gray-600'>
-                <p>ABOUT <span className='text-purple-muted font-medium'>ME</span></p>
+            <div className="text-center mb-12 pt-10">
+                <p className="text-gray-400 uppercase tracking-widest text-sm">
+                    About <span className="text-accent-amber font-semibold">Me</span>
+                </p>
             </div>
 
             <div className='my-10 flex flex-col md:flex-row gap-12'>
-                <img className='w-full md:max-w-90 rounded' src={doc14} alt="" />
+                <img className='w-full md:max-w-90 rounded' src={about} alt="" />
                 <div className='flex flex-col justify-center gap-6 md;w-2/4 text-sm text-gray-600'>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam amet suscipit animi error sunt, maiores minima dolorum veniam exercitationem quibusdam? Atque consequuntur a, dolor quis sapiente deserunt odit sunt nobis?

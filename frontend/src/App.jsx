@@ -21,7 +21,7 @@ const App = () => {
         {/* <Route path='/' element={ } /> */}
       </Routes>
 
-      <Footer className='mt-auto bg-dark-surface border-t border-white/10' />
+      <Footer className='bg-dark-surface border-t border-white/10' />
 
     </div>
   )

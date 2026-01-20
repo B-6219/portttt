@@ -1,10 +1,12 @@
 
 import React from 'react'
-import profile_pic from '../assets/profile_pic.png'
+
+import me from '../assets/me.jpg'
+import Stats from '../components/Stats'
 
 const Home = () => {
     return (
-        <section className="min-h-[80vh] flex items-center justify-center bg-dark-bg">
+        <section className="min-h-screen flex items-center justify-center bg-dark-bg">
             <div className="max-w-5xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-12">
 
                 {/* Text */}
@@ -41,7 +43,7 @@ const Home = () => {
                 {/* Image */}
                 <div className="relative">
                     <img
-                        src={profile_pic}
+                        src={me}
                         alt="Brian Kamau"
                         className="h-52 w-52 md:h-64 md:w-64 rounded-full object-cover border-4 border-accent-amber shadow-lg"
                     />
@@ -49,6 +51,8 @@ const Home = () => {
                 </div>
 
             </div>
+
+            <Stats />
         </section>
     )
 }
