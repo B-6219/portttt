@@ -1,6 +1,8 @@
 
 import React from 'react'
 import spotify from '../assets/spotify.png'
+import nerd from '../assets/nerd.png'
+import quote from '../assets/quote.png'
 
 const projects = [
     {
@@ -13,20 +15,20 @@ const projects = [
         live: "https://spotify-fullstack-9jee.vercel.app/",
     },
     {
-        title: "Twitter (X) Clone",
+        title: "Mini Tech Store",
         description:
             "A high-performance, responsive music streaming application inspired by Spotify's design and core user experience. This project replicates the hallmark 'dark theme' and fluid navigation of the original platform while integrating real-time audio playback using MERN Stack.",
-        tech: ["JavaScript", "React", 'TanStack'],
-        image: spotify,
-        github: "https://github.com/B-6219/twitter-clone",
-        live: "https://twitter-clone-mfju-ec9v6u7vy-brians-projects-ae331f86.vercel.app/",
+        tech: ["TypeScript", "Tailwind CSS", "React", 'TanStack'],
+        image: nerd,
+        github: 'https://github.com/B-6219/hey-wave-talk',
+        live: 'https://hey-wave-talk.vercel.app/',
     },
     {
         title: "Tech Quote Generator",
         description:
             "A high-performance, responsive music streaming application inspired by Spotify's design and core user experience. This project replicates the hallmark 'dark theme' and fluid navigation of the original platform while integrating real-time audio playback using MERN Stack.",
         tech: ["HTML", 'CSS', 'Javascript'],
-        image: spotify,
+        image: quote,
         github: "https://github.com/B-6219/Random_Qoute_Generator",
         live: "https://random-qoute-generator-phi.vercel.app/",
     },
@@ -96,6 +98,20 @@ const Project = () => {
                         </div>
                     </div>
                 ))}
+
+                <div className="col-span-full flex justify-center mt-6">
+                    <a
+                        href="https://github.com/B-6219?tab=repositories"
+                        className="px-8 py-3 bg-accent-amber text-black rounded-xl
+                   font-semibold text-sm tracking-wide
+                   hover:opacity-90 hover:scale-105
+                   transition-all duration-300"
+                    >
+                        More Projects →
+                    </a>
+                </div>
+
+
             </section>
         </div>
     )

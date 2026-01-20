@@ -32,7 +32,7 @@ const Home = () => {
 
                     <div className="mt-6 flex gap-4 justify-center md:justify-start">
                         <button className="bg-accent-amber text-black px-6 py-3 rounded-lg font-medium hover:opacity-90">
-                            Hire Me
+                            <a href="https://github.com/B-6219">Github</a>
                         </button>
                         <button className="border border-accent-amber text-accent-amber px-6 py-3 rounded-lg hover:bg-neon hover:text-black transition">
                             Download CV
