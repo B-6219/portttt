@@ -3,12 +3,15 @@ import React from 'react'
 import spotify from '../assets/spotify.png'
 import nerd from '../assets/nerd.png'
 import quote from '../assets/quote.png'
+import hospital from '../assets/hospital.png'
+import book from '../assets/book.png'
+import twitter from '../assets/twitter.png'
 
 const projects = [
     {
         title: "Spotify Clone",
         description:
-            "A high-performance, responsive music streaming application inspired by Spotify's design and core user experience. This project replicates the hallmark 'dark theme' and fluid navigation of the original platform while integrating real-time audio playback using MERN Stack.",
+            "A responsive music streaming web application inspired by Spotify, featuring dark mode UI, smooth navigation, and real-time audio playback built using the MERN stack.",
         tech: ["JavaScript", "React", "Node.js", "MongoDB"],
         image: spotify,
         github: "https://github.com/B-6219/spotify-fullstack",
@@ -17,23 +20,51 @@ const projects = [
     {
         title: "Mini Tech Store",
         description:
-            "A high-performance, responsive music streaming application inspired by Spotify's design and core user experience. This project replicates the hallmark 'dark theme' and fluid navigation of the original platform while integrating real-time audio playback using MERN Stack.",
-        tech: ["TypeScript", "Tailwind CSS", "React", 'TanStack'],
+            "A modern e-commerce platform for tech products with a clean interface, dynamic product listings, and optimized performance using React, TypeScript, and Tailwind CSS.",
+        tech: ["TypeScript", "Tailwind CSS", "React", "TanStack"],
         image: nerd,
-        github: 'https://github.com/B-6219/hey-wave-talk',
-        live: 'https://hey-wave-talk.vercel.app/',
+        github: "https://github.com/B-6219/hey-wave-talk",
+        live: "https://hey-wave-talk.vercel.app/",
     },
     {
         title: "Tech Quote Generator",
         description:
-            "A high-performance, responsive music streaming application inspired by Spotify's design and core user experience. This project replicates the hallmark 'dark theme' and fluid navigation of the original platform while integrating real-time audio playback using MERN Stack.",
-        tech: ["HTML", 'CSS', 'Javascript'],
+            "A lightweight web application that generates random tech-related quotes with a clean UI and fast interactions using HTML, CSS, and JavaScript.",
+        tech: ["HTML", "CSS", "JavaScript"],
         image: quote,
         github: "https://github.com/B-6219/Random_Qoute_Generator",
         live: "https://random-qoute-generator-phi.vercel.app/",
     },
+    {
+        title: "Future Care Hospital (FCH)",
+        description:
+            "A fully responsive hospital website designed to showcase medical services, departments, and contact information with a clean, accessible user interface.",
+        tech: ["HTML", "CSS", "JavaScript"],
+        image: hospital,
+        github: "https://github.com/B-6219/Complete-Responsive-Hospital-Website",
+        live: "https://complete-responsive-hospital-website.vercel.app/",
+    },
+    {
+        title: "Hospital Booking System",
+        description:
+            "A full-stack appointment booking system that allows patients to schedule consultations, manage bookings, and interact with a modern dashboard built using the MERN stack.",
+        tech: ["MongoDB", "Express", "ReactJS", "Node.js", "Tailwind CSS", "JavaScript"],
+        image: book,
+        github: "https://github.com/B-6219/Random_Qoute_Generator",
+        live: "https://doctor-appointment-system-sand.vercel.app/",
+    },
+    {
+        title: "Social Media App",
+        description:
+            "A full-stack social media application featuring user authentication, posts, likes, and real-time interactions with a scalable MERN-based architecture.",
+        tech: ["MongoDB", "Express", "ReactJS", "Node.js", "Tailwind CSS", "JavaScript"],
+        image: twitter,
+        github: "https://github.com/B-6219/twitter-clone",
+        live: "https://twitter-clone-mfju.vercel.app/",
+    },
 
-]
+];
+
 
 const Project = () => {
     return (
@@ -64,7 +95,7 @@ const Project = () => {
                             <h3 className="text-xl font-bold text-neon mb-2">
                                 {project.title}
                             </h3>
-                            <p className="text-text-muted text-sm mb-4 grow">
+                            <p className="text-text-muted text-sm mb-4 grow text-white">
                                 {project.description}
                             </p>
 
