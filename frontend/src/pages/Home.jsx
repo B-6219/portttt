@@ -20,14 +20,7 @@ const Home = () => {
                     </h1>
 
                     <h2 className="text-xl md:text-2xl text-off-white mt-1">
-                        I am a{" "}
-                        <span className="relative inline-block h-7 overflow-hidden text-accent-amber font-medium">
-                            <span className="block animate-roles leading-7">
-                                Full-Stack Developer<br />
-                                Mobile App Developer<br />
-                                Cybersecurity Engineer
-                            </span>
-                        </span>
+                        I am a <span className=" text-accent-amber font-medium">Full Stack Developer</span>
                     </h2>
 
                     <div className="mt-6 flex gap-4 justify-center md:justify-start">
