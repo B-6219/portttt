@@ -6,6 +6,9 @@ import quote from '../assets/quote.png'
 import hospital from '../assets/hospital.png'
 import book from '../assets/book.png'
 import twitter from '../assets/twitter.png'
+import keynan from '../assets/keynan.png'
+import nairobi from '../assets/nairobi.png'
+import cake from '../assets/cake.png'
 
 const projects = [
     {
@@ -62,6 +65,34 @@ const projects = [
         github: "https://github.com/B-6219/twitter-clone",
         live: "https://twitter-clone-mfju.vercel.app/",
     },
+    {
+        title: "Keynan's Optical",
+        description:
+            "A responsive website for Keynan's Optical, showcasing products and services with a clean design and user-friendly interface built using HTML, CSS, and JavaScript.",
+        tech: ["HTML", "CSS", "JavaScript"],
+        image: keynan,
+        github: "https://github.com/B-6219/keynan",
+        live: "https://keynan.vercel.app/",
+    },
+    {
+        title: "Nairobi Pay Services",
+        description:
+            "A modern, responsive website for Nairobi Pay Services, featuring service listings, contact information, and a clean design built with HTML, CSS, and JavaScript.",
+        tech: ["HTML", "CSS", "JavaScript"],
+        image: nairobi,
+        github: "https://github.com/B-6219/permit-business",
+        live: "https://permit-business.vercel.app/",
+    },
+    {
+        title: "Cake Shop Website",
+        description:
+            "A visually appealing and responsive website for a cake shop, showcasing products, services, and contact information with a clean design built using HTML, CSS, and JavaScript.",
+        tech: ["HTML", "CSS", "JavaScript"],
+        image: cake,
+        github: "https://github.com/B-6219/sweet-site-builder",
+        live: "https://coffe-sample.vercel.app/"
+    }
+
 
 ];
 
